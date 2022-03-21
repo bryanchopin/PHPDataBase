@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ejemplo de interaccion con DB</title>
-<style type="text/css">
-@import url("css/mycss.css");
-</style>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de interaccion con DB</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
 <div class="todo">
 
-  
   <div id="contenido">
   	<table style="margin: auto; width: 800px; border-collapse: separate; border-spacing: 10px 5px;">
   		<thead>
@@ -45,8 +43,6 @@
   </div>
 
 
-</div>
-
-
-</body>
+  </div>
+  </body>
 </html>
