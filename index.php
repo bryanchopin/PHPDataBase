@@ -38,7 +38,6 @@
                       <th>Descripcion</th>
                       <th> <a href="nuevo_prod1.php"> <button type="button" class="btn btn-info">Nuevo</button> </a> </th>
                     </thead>
-            
                     <?php
                       include "conexion.php";
                       $sentecia="SELECT * FROM productos";
@@ -46,16 +45,14 @@
                       while($fila=$resultado->fetch_assoc())
                       {
                         echo "<tr>";
-                          echo "<td>"; echo $fila['no']; echo "</td>";
                           echo "<td>"; echo $fila['id_producto']; echo "</td>";
                           echo "<td>"; echo $fila['nombre']; echo "</td>";
                           echo "<td>"; echo $fila['descripcion']; echo "</td>";
-                          echo "<td><a href='modif_prod1.php?no=".$fila['no']."'> <button type='button' class='btn btn-success'>Modificar</button> </a></td>";
-                          echo " <td><a href='eliminar_prod.php?no=".$fila['no']."'> <button type='button' class='btn btn-danger'>Eliminar</button> </a></td>";
+                          echo "<td><a href='modif_prod1.php'> <button type='button' class='btn btn-success'>Modificar</button> </a></td>";
+                          echo " <td><a href='eliminar_prod.php'> <button type='button' class='btn btn-danger'>Eliminar</button> </a></td>";
                         echo "</tr>";
                       }
                     ?>
-            
                   </table>
             </div>
         </div>
