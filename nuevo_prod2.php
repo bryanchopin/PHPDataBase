@@ -1,8 +1,8 @@
 <?php
 
-	
+
 	NuevoProducto($_POST['id_producto'], $_POST['producto'], $_POST['descripcion']);
-	
+
 	function NuevoProducto($id_prod, $nom, $descrip)
 	{
 		include 'conexion.php';

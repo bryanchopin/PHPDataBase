@@ -21,11 +21,11 @@
 </head>
 <body>
 <div class="todo">
-  
+
   <div id="cabecera">
   	<img src="images/swirl.png" width="1188" id="img1">
   </div>
-  
+
   <div id="contenido">
   	<div style="margin: auto; width: 800px; border-collapse: separate; border-spacing: 10px 5px;">
   		<span> <h1>Alta de Nuevo Producto</h1> </span>
@@ -33,20 +33,20 @@
 	  <form action="nuevo_prod2.php" method="POST" style="border-collapse: separate; border-spacing: 10px 5px;">
   		<label>Id Producto: </label>
   		<input type="text" id="id_producto" name="id_producto"><br>
-  		
+
   		<label>Producto: </label>
   		<input type="text" id="producto" name="producto" ><br>
-  		
+
   		<label>Descripcion: </label>
   		<textarea style="border-radius: 10px;" rows="3" cols="50" name="descripcion" ></textarea><br>
-  		
+
   		<br>
   		<button type="submit" class="btn btn-success">Guardar</button>
      </form>
   	</div>
-  	
+
   </div>
-  
+
 	<div id="footer">
   		<img src="images/swirl2.png" id="img2">
   	</div>
