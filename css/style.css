@@ -51,6 +51,7 @@ brychxpin
 	border: 1px solid var(--colorBorder);
 	display: flex;
 	justify-content: center;
+	overflow: auto;
 }
 
 .containerItemNav{
@@ -79,6 +80,7 @@ brychxpin
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
+	overflow-y: scroll;
 }
 .containerMain{
 	width: 65vw;

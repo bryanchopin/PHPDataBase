@@ -1,5 +1,6 @@
 <?php
 
+	// error al momento de buscar la variable de "no" que al chile no se de donde viene
 
 	NuevoProducto($_POST['id_producto'], $_POST['producto'], $_POST['descripcion']);
 
@@ -15,3 +16,6 @@
 	alert("Producto Ingresado Exitosamante!!");
 	window.location.href='index.php';
 </script>
+
+
+
