@@ -1,7 +1,7 @@
 :root{
-	--colorBg: #000;
-	--colorBorder: #fff;
-	--colorFont:#fff;
+	--colorBg: #fff;
+	--colorBorder: #000;
+	--colorFont:#000;
 }
 
 *{
