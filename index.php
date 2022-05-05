@@ -30,7 +30,7 @@
                 </aside>
             </div>
             <div class="containerMain">
-                <table style="margin: auto; width: 800px; border-collapse: separate; border-spacing: 10px 5px;">
+                <table">
                     <thead>
                       <th>No.</th>
                       <th>ID</th>
